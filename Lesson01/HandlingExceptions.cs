@@ -19,7 +19,7 @@ namespace HandlingException
             StreamReader sr = null;
             try
             {
-                sr = FileStyleUriParser.OpenText(@"c:\data.txt");
+                sr = File.OpenText(@"c:\data.txt");
                 Console.WriteLine(sr.ReadToEnd());
             }
             catch (FileNotFoundException fnfe)
