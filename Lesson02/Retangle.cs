@@ -10,6 +10,9 @@ namespace Lesson02
     {
         private double length;
         private double width;
+        
+        //Below is a Constructor class method
+        //Constructor must have the same name as the class
         public Rectangle(double l, double w)
         {
             length = l;
