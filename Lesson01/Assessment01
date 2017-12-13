@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assessment01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = 20;
+            int d = n++ + 5; //n++ increments after the expression is made
+            //the expression will structure as 20 + 5 = 25
+            //if d = ++n + 5 the increments will be before the epression is made
+            //the expression will be 21 + 5 in regards to (d = ++n +5) = 26
+            Console.WriteLine(d);
+        }
+    }
+}
