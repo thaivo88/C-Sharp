@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assessment02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            WhileTest();
+        }
+
+        private static void WhileTest()
+        {
+            int i = 1;
+            while (i < 5)
+            {
+                Console.WriteLine("The value of i = {0}", i);
+                i++;
+                //the loop will execute 4x
+                //starting with the value 1 until reaching 4 making i never larger than 5
+            }
+        }
+    }
+}
